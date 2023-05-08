@@ -1,3 +1,6 @@
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
  * Serving Flask app 'app'
  * Debug mode: on
  * Running on all addresses (0.0.0.0)
