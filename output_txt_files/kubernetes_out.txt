@@ -13,7 +13,7 @@ Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdo
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:80
- * Running on http://10.244.0.4:80
+ * Running on http://10.244.0.3:80
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
 /usr/local/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:34: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
@@ -27,40 +27,31 @@ Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdo
 /usr/local/lib/python3.7/site-packages/sklearn/base.py:251: UserWarning: Trying to unpickle estimator GradientBoostingRegressor from version 0.20.3 when using version 0.20.2. This might lead to breaking code or invalid results. Use at your own risk.
   UserWarning)
  * Debugger is active!
- * Debugger PIN: 515-584-439
-[2023-05-08 06:21:50,715] INFO in app: JSON payload: 
+ * Debugger PIN: 131-262-330
+[2023-05-08 06:44:46,286] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2023-05-08 06:21:50,737] INFO in app: Inference payload DataFrame: 
+[2023-05-08 06:44:46,298] INFO in app: Inference payload DataFrame: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2023-05-08 06:21:50,749] INFO in app: Scaling Payload: 
+[2023-05-08 06:44:46,306] INFO in app: Scaling Payload: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-127.0.0.1 - - [08/May/2023 06:21:50] "POST /predict HTTP/1.1" 200 -
-[2023-05-08 06:21:53,030] INFO in app: JSON payload: 
+127.0.0.1 - - [08/May/2023 06:44:46] "POST /predict HTTP/1.1" 200 -
+[2023-05-08 06:44:47,741] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2023-05-08 06:21:53,041] INFO in app: Inference payload DataFrame: 
+[2023-05-08 06:44:47,752] INFO in app: Inference payload DataFrame: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2023-05-08 06:21:53,049] INFO in app: Scaling Payload: 
+[2023-05-08 06:44:47,761] INFO in app: Scaling Payload: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-127.0.0.1 - - [08/May/2023 06:21:53] "POST /predict HTTP/1.1" 200 -
-[2023-05-08 06:21:53,659] INFO in app: JSON payload: 
+127.0.0.1 - - [08/May/2023 06:44:47] "POST /predict HTTP/1.1" 200 -
+[2023-05-08 06:44:48,422] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2023-05-08 06:21:53,672] INFO in app: Inference payload DataFrame: 
+[2023-05-08 06:44:48,433] INFO in app: Inference payload DataFrame: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2023-05-08 06:21:53,682] INFO in app: Scaling Payload: 
+[2023-05-08 06:44:48,441] INFO in app: Scaling Payload: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-127.0.0.1 - - [08/May/2023 06:21:53] "POST /predict HTTP/1.1" 200 -
-[2023-05-08 06:21:54,262] INFO in app: JSON payload: 
-{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2023-05-08 06:21:54,292] INFO in app: Inference payload DataFrame: 
-   CHAS     RM    TAX  PTRATIO      B  LSTAT
-0     0  6.575  296.0     15.3  396.9   4.98
-[2023-05-08 06:21:54,309] INFO in app: Scaling Payload: 
-   CHAS     RM    TAX  PTRATIO      B  LSTAT
-0     0  6.575  296.0     15.3  396.9   4.98
-127.0.0.1 - - [08/May/2023 06:21:54] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2023 06:44:48] "POST /predict HTTP/1.1" 200 -

@@ -44,15 +44,15 @@ source .devops/bin/activate
 
 ### Kubernetes Steps
 
-* Setup and Configure Docker locally
+1. **Setup and Configure Docker locally**
 - Create a docker account via [link](https://hub.docker.com/)
 - Install latest docker version via [link](https://docs.docker.com/v17.12/install/)
 - Check docker version by `docker --version` command
 
-* Setup and Configure Kubernetes locally
+2. **Setup and Configure Kubernetes locally**
 - Install minikube version via [guide link](https://minikube.sigs.k8s.io/docs/start/)
 - Run the following command: `minikube start` to start the minikube server
-* Create Flask app in Container
+3. **Create Flask app in Container**
 - Run in Docker: `./run_docker.sh` to create docker container for flask app
 - Run in Kubernetes: `./run_kubernetes.sh` to create a pod that running application on kubernetes
     and expose port 8080 to locally
